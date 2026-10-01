@@ -20,7 +20,7 @@
         "rows": ["GP8", "GP5", "GP0", "GP7", "GP4", "GP11", "GP2", "GP1"]
     },
     "processor": "RP2040",
-    "url": "https://github.com/KikuchiMakoto/Lenovo_keyboard",
+    "url": "https://github.com/KikuchiMakoto/lenovo_thinkbook_keyboard",
     "usb": {
         "device_version": "0.0.1",
         "pid": "0x27DB",
