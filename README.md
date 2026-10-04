@@ -91,7 +91,24 @@ USB-IF 本家の規格およびオープンソースハードウェアコミュ�
 
 ---
 
-## 6. 配布用アセット（GitHub Releases）
+## 6. キーマトリクス交点対応表 (Matrix Crosspoint Table)
+
+8 Rows × 16 Cols のマトリクス交点と割り当てられている物理キーの対応表です。
+
+| Row \ Col | Col 0<br>`GP6` | Col 1<br>`GP12` | Col 2<br>`GP10` | Col 3<br>`GP13` | Col 4<br>`GP9` | Col 5<br>`GP16` | Col 6<br>`GP14` | Col 7<br>`GP15` | Col 8<br>`GP22` | Col 9<br>`GP20` | Col 10<br>`GP21` | Col 11<br>`GP19` | Col 12<br>`GP18` | Col 13<br>`GP17` | Col 14<br>`GP3` | Col 15<br>`GP28` |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Row 0**<br>`GP8` | `~ | F1 | F2 | 5% | 6^ | =+ | F8 | -_ | F9 | - | - | - | - | Ctrl | - | - |
+| **Row 1**<br>`GP5` | 1! | 2@ | 3# | 4$ | 7& | 8* | 9( | 0) | F10 | - | F11 | F12 | Insert | - | - | - |
+| **Row 2**<br>`GP0` | Tab | Caps Lock | F3 | T | Y | ]} | F7 | [{ | Bksp | - | - | - | - | - | Shift | - |
+| **Row 3**<br>`GP7` | Q | W | E | R | U | I | O | P | - | - | - | - | Delete | - | - | Left OS |
+| **Row 4**<br>`GP4` | A | S | D | F | J | K | L | ;: | \| | Fn | - | - | - | - | - | - |
+| **Row 5**<br>`GP11` | Esc | - | F4 | G | H | F6 | - | '" | F5 | Up | - | - | Alt | - | - | - |
+| **Row 6**<br>`GP2` | Z | X | C | V | M | ,< | .> | - | Enter | PrtSc | - | - | - | Ctrl | Shift | - |
+| **Row 7**<br>`GP1` | - | - | - | B | N | - | - | /? | Space | Left | Down | Right | AltGr | - | - | - |
+
+---
+
+## 7. 配布用アセット（GitHub Releases）
 GitHub Release を作成する際は、以下のファイルを一緒に配布することを推奨します:
 1. `converter_thinkbook14_g5plus_arp_rpi_pico_default.uf2`（ファームウェア本体）
 2. `remap.json`（Remap 用定義ファイル）

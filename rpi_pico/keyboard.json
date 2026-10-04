@@ -105,10 +105,10 @@
                 {"label": "Space", "matrix": [7, 8], "x": 4.5, "y": 4.5, "w": 5},
                 {"label": "AltGr", "matrix": [7, 12], "x": 9.5, "y": 4.5},
                 {"label": "Ctrl", "matrix": [6, 13], "x": 10.5, "y": 4.5},
-                {"label": "Left", "matrix": [7, 9], "x": 11.5, "y": 4.5, },
+                {"label": "Left", "matrix": [7, 9], "x": 11.5, "y": 4.5},
                 {"label": "Up", "matrix": [5, 9], "x": 12.5, "y": 4.5, "h": 0.5},
                 {"label": "Down", "matrix": [7, 10], "x": 12.5, "y": 5, "h": 0.75},
-                {"label": "Right", "matrix": [7, 11], "x": 13.5, "y": 4.5,}
+                {"label": "Right", "matrix": [7, 11], "x": 13.5, "y": 4.5}
             ]
         }
     }
