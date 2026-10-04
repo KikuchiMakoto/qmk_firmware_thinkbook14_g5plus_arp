@@ -1,4 +1,5 @@
 # QMK Firmware for ThinkBook 14 G5+ ARP (RP2040 Keyboard Converter)
+`./keyboards/converter` に `git clone` して使用すること。
 
 Lenovo ThinkBook 14 G5+ ARP の内蔵キーボードを Raspberry Pi Pico (RP2040) を用いて USB キーボード化するコンバーター用 QMK ファームウェアです。  
 Remap (https://remap-keys.app/configure) によるブラウザからのリアルタイムキーマッピング変更、マクロ機能、6レイヤーに対応しています。
@@ -76,7 +77,15 @@ USB-IF 本家の規格およびオープンソースハードウェアコミュ�
 
 ---
 
-## 5. インジケータ LED 仕様
+## 5. 基板ピン配置および GPIO 仕様
+
+### Matrix Rows (8本)
+`GP8` (Row 0), `GP5` (Row 1), `GP0` (Row 2), `GP7` (Row 3), `GP4` (Row 4), `GP11` (Row 5), `GP2` (Row 6), `GP1` (Row 7)
+
+### Matrix Cols (16本)
+`GP6` (Col 0), `GP12` (Col 1), `GP10` (Col 2), `GP13` (Col 3), `GP9` (Col 4), `GP16` (Col 5), `GP14` (Col 6), `GP15` (Col 7), `GP22` (Col 8), `GP20` (Col 9), `GP21` (Col 10), `GP19` (Col 11), `GP18` (Col 12), `GP17` (Col 13), `GP3` (Col 14), `GP28` (Col 15)
+
+### インジケータ LED
 * **CapsLock LED**: `GP27`（QMK 標準キーボード LED と自動連動）
 * **FnLock LED**: `GP26`（カスタムキーコード `FN_LOCK` によるトグル連動）
 
