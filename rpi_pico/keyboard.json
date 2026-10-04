@@ -1,7 +1,7 @@
 {
-    "manufacturer": "KikuchiMakoto",
-    "keyboard_name": "converter/thinkbook14_g5plus_arp/rpi_pico",
-    "maintainer": "KikuchiMakoto",
+    "manufacturer": "Makoto KUNO <makomako0829bump@gmail.com>",
+    "keyboard_name": "ThinkBook 14 G5+ Keyboard Converter",
+    "maintainer": "Makoto KUNO",
     "board": "GENERIC_RP_RP2040",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
@@ -23,8 +23,8 @@
     "url": "https://github.com/KikuchiMakoto/lenovo_thinkbook_keyboard",
     "usb": {
         "device_version": "0.0.1",
-        "pid": "0x27DB",
-        "vid": "0x16C0"
+        "pid": "0x0001",
+        "vid": "0x1209"
     },
     "layouts": {
         "LAYOUT": {
